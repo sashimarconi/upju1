@@ -1,0 +1,40 @@
+/* Fundo e texto geral */
+body {
+    background-color: #f8f9fa; /* Cor clara */
+    color: #212529; /* Texto escuro */
+}
+
+/* Tarja "AO VIVO" agora vermelha mais forte */
+.live-badge {
+    background: red;
+    color: white;
+}
+
+/* Contador de espectadores com fundo mais claro */
+.viewer-count {
+    background: rgba(255, 255, 255, 0.8);
+    color: #212529;
+    font-weight: bold;
+}
+
+/* Sobreposição de bloqueio mais clara */
+.blur-overlay {
+    backdrop-filter: blur(8px);
+    background: rgba(40, 39, 39, 0.6);
+}
+
+/* Mensagem de bloqueio */
+.lock-message {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+/* Botão de desbloqueio */
+#unlockButton {
+    background: #28a745; /* Verde vibrante */
+    color: white;
+    border: none;
+}
+#unlockButton:hover {
+    background: #218838; /* Verde mais escuro ao passar o mouse */
+}
